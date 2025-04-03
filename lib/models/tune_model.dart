@@ -14,6 +14,7 @@ class TuneModel {
     // Implement sound playing logic here
     // For example, using the audioplayers package:
     final player = AudioPlayer();
+    player.stop(); // Stop any currently playing sound
 player.play(AssetSource(soundPath));
   }
 }
